@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_name"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Name" />
+        <item
+            android:id="@+id/nav_markets"
+            android:icon="@drawable/ic_business_black_24dp"
+            android:title="Markets" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/ic_bookmark_border_black_24dp"
+            android:title="View Bookmarks" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_refer"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Refer" />
+        <item
+            android:id="@+id/nav_advertise"
+            android:icon="@drawable/ic_advertise_black_24dp"
+            android:title="Advertise with us" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_privacy_black_24dp"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:icon="@drawable/ic_disclaimer_black_24dp"
+            android:title="Disclaimer" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

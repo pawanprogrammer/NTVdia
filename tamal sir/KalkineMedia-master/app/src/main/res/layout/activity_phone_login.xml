@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Authentication.PhoneLoginActivity">
+
+    <!--<ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/waves" />-->
+
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/slide_1_desc"
+        android:textAlignment="center"
+        android:textColor="#666565"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv1" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Enter Your 10 digit Mobile No. For Important Updates"
+        android:textColor="#B9B9B9"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/front"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+        <!--<TextView
+            android:id="@+id/code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ 61"
+            app:layout_constraintRight_toLeftOf="@+id/editTextMobile"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="10dp"
+            />-->
+
+        <EditText
+            android:id="@+id/editTextMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:digits="0123456789"
+            android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+            android:drawablePadding="5dp"
+            android:elevation="5dp"
+            android:hint="0X-XXXX-XXXX"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:shadowColor="#000"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn"
+        android:elevation="10dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="*  you will be getting free report on registered mobile no."
+        android:textColor="#B9B9B9"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonContinue" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

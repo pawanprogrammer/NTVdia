@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Kalkine Media</string>
+    <string name="register_binding">Register Binding</string>
+    <string name="identity">Identity</string>
+    <string name="identity_hint">Identity (Do not use PII, such as name)</string>
+    <string name="base_url_string">YOUR_TWILIO_FUNCTIONS_URL</string>
+
+    <string name="default_notification_channel_id">Kalkine</string>
+
+    <string name="welcome">WELCOME\nTO</string>
+
+    <string name="facebook_app_id">2237978173182427</string>
+    <string name="fb_login_protocol_scheme">fb2237978173182427</string>
+
+    <string name="login_msg">Terms &amp; Conditions.</string>
+    <string name="stringname" translatable="false">This string doesnot need translation</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Kalkine Media!</string>
+    <string name="slide_1_desc">The easiest way to get information about Stocks and financial markets</string>
+
+    <string name="slide_2_title">Stock ASX</string>
+    <string name="slide_2_desc">Get Stock details!</string>
+
+    <string name="slide_3_title">Great News</string>
+    <string name="slide_3_desc">Great News and Views about the financial markets!</string>
+
+    <string name="slide_4_title">Free Dividends Reports</string>
+    <string name="slide_4_desc">Just register in App and get free dividends  reports of any Stocks and news in Australia!</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="privacy_content">Kalkine takes individual privacy very seriously. We are also aware of the threats to your security and privacy on the Internet. Please take a few moments to review the steps that Kalkine takes to ensure your privacy and security while giving you the best possible customer service as you use our websites.  Our Privacy Policy outlines how we collect and handle your personal information. References to ‘Kalkine’, ‘we’, ‘our’ and ‘us’ refer to Kalkine Media Pty Ltd.</string>
+    <string name="privacy_personal">We collect your personal information; this may include and is not limited to your name, email address, mailing address and phone number. Only our authorised employees will have access to this information. Kalkine Media may send promotional materials like surveys, market research, contest or promotional awards, or notifications related to our products and services. To help make these materials more relevant to you, we may use and combine any of the personal data and other Information we collect to assist us in sending you these materials. We may also use your information (including a telephone or mobile number you may have provided for this purpose) to contact you, including to respond to your comments and inquiries. If at any time you do not wish your mailing address/contact number to be used for direct marketing or receive news and offers from carefully selected organisations please contact us directly by email, post or phone.  Kalkine and its subsidiaries may share your Personal Data with one another, for the purpose of each company’s marketing purposes. Users who visit Kalkine subsidiaries services should refer to their separate privacy policies and disclaimers, which may differ in some respects from the Kalkine Media Policy.</string>
+    <string name="privacy_personal_heading">How and what personal information is collected?</string>
+    <string name="privacy_cookies_heading">Cookies</string>
+    <string name="privacy_cookies">Cookies are small files placed on your computer by a web page when you visit it. They can be used to store all sorts of useful information to make your next visit easier and more convenient, but some people are uncomfortable not knowing what information is in a cookie.  The Kalkine website uses cookies only to compile statistics on the use of the various pages on our site (how many people visit each page and that sort of thing). We do not store or collect any personally identifiable information.  When we send you emails, we may include a web beacon to allow us to determine the number of people who open our emails. When you click on a link in an email, we may record this individual response to allow us to customize our offerings to you. Web beacons collect only limited information, such as a cookie identifier, time and date of a page being viewed, and a description of the page on which the Web Beacon resides (the URL).  Web Beacons can be refused when delivered via email. If you do not wish to receive Web Beacons via email, you will need to disable HTML images or refuse HTML (select Text only) emails via your email software.</string>
+    <string name="privacy_information_heading">Who can access my personal information?</string>
+    <string name="privacy_information">Only authorised employees of Kalkine have access to any information you provide. We may turn over any pertinent information to any law enforcement agency that has a demonstrable right and takes the proper steps to access it. Where your personal information is disclosed, we will ensure that the information is to be held, used or disclosed consistently with the Australian Privacy Principles.  You have the right to contact us and ask what information we may hold about you. Before you can obtain access to any information held by Kalkine about you, your identity will first need to be verified.</string>
+    <string name="privacy_service_heading">Service Providers</string>
+    <string name="privacy_service">We may employ third-party companies and individuals due to the following reasons:  To facilitate our Service; To perform Service-related services; or To assist us in analyzing how our Service is used. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</string>
+    <string name="privacy_policy_heading">Updates to our privacy policy</string>
+    <string name="privacy_policy">Kalkine Media will review and update this privacy policy as needed. Please check back regularly for any updates.</string>
+    <string name="privacy_email">If you have any questions regarding our privacy policy, you can contact us at  Email: info@kalkinemedia.com</string>
+    <string name="disclaimer_content">PLEASE BE ADVISED THAT YOUR CONTINUED USE OF THIS SITE OR THE INFORMATION PROVIDED HEREIN SHALL INDICATE YOUR CONSENT AND AGREEMENT TO THESE TERMS.</string>
+    <string name="disclaimer_msg">This website is a service of Kalkine Media Pty. Ltd. an investor relation group and media house. The website has been prepared for informational purposes only and is not intended to be used as a complete source of information on any particular company. Kalkine is not responsible for material posted on this website and does not guarantee the content, accuracy, or use of the content in this site. No advice or information, whether oral or written, obtained by you from Kalkine Media or through or from the service shall create any warranty not expressly stated.  \n\nKalkine Media do not offer financial advice based upon your personal financial situation or goals, and we shall NOT be held liable for any investment or trading losses you may incur by using the opinions expressed in our publications, market updates, news alerts and corporate profiles. Kalkine does not in any way endorse or recommend individuals, products or services that may be discussed on this site. You should discuss your portfolios and the risk tolerance level appropriate for your personal financial situation, with a professional licensed financial planner and adviser. Our publications are NOT a solicitation or recommendation to buy, sell or hold. We are neither licensed nor qualified to provide investment advice.</string>
+    <string name="share">Share &amp; Get Free Reports</string>
+</resources>

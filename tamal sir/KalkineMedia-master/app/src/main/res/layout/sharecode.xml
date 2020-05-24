@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/refer_share"
+        android:layout_marginTop="40dp"
+        android:id="@+id/iv_refer_share"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_refer_msg"
+        app:layout_constraintTop_toBottomOf="@+id/iv_refer_share"
+        android:text="Invite a Friend"
+        android:textSize="16sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_sharecode"
+        app:layout_constraintTop_toBottomOf="@+id/tv_refer_msg"
+        android:text="You will get Free Stocks Market Research Reports after Share Application to your friends."
+        android:textSize="12sp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/share"
+        android:id="@+id/btn_refer"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/front"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sharecode"/>
+
+</android.support.constraint.ConstraintLayout>

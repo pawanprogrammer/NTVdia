@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:textColor="#fff"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/tv_otpmsg"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_otpmsg"
+        android:text="We have sent OTP on your number"
+        android:textColor="#fff"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/otp_view"
+        android:layout_marginBottom="20dp"
+        android:textSize="14sp"
+        android:fontFamily="serif-monospace"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <!--<in.aabhasjindal.otptextview.OtpTextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        app:bar_active_color="#DFDDDD"
+        app:bar_error_color="@color/red"
+        app:bar_height="iv_digital.5dp"
+        app:bar_inactive_color="#fff"
+        app:bar_success_color="#4CAF50"
+        app:height="40dp"
+        app:length="4"
+        app:otp=""
+        app:otp_text_size="20dp"
+        app:width="40dp"/>
+-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otp_view"
+
+        android:id="@+id/btn_verify"
+        android:layout_marginTop="20dp"
+        android:text="Verify OTP"
+        android:background="@drawable/front"
+        />
+
+</android.support.constraint.ConstraintLayout>

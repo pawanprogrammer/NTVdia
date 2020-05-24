@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "527799635926",
+    "firebase_url": "https://webpromo-322f0.firebaseio.com",
+    "project_id": "webpromo-322f0",
+    "storage_bucket": "webpromo-322f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527799635926:android:28bfb94f7d540948",
+        "android_client_info": {
+          "package_name": "com.apgklobal.webpromo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527799635926-m5fd3atjf67goi92dlo6re54cr617s69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apgklobal.webpromo",
+            "certificate_hash": "cec3f4b3ce9560b6a8ed377bf31d71b2af4b0988"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS_i5RdUlj2T2DaQf9kNmX7R8fzAFcCt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527799635926-6s2cbqppsc3nufca70q9pnnlnnluvd6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sqlite.BlogActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:id="@+id/etname"
+        app:layout_constraintTop_toTopOf="parent"></EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etemail"
+        app:layout_constraintTop_toBottomOf="@+id/etname"></EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:inputType="text"
+        android:id="@+id/etmsg"
+        android:lines="4"
+        app:layout_constraintTop_toBottomOf="@+id/etemail"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsave"
+        android:text="Save"
+        app:layout_constraintTop_toBottomOf="@+id/etmsg"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnview"
+        android:text="View"
+        app:layout_constraintTop_toBottomOf="@+id/btnsave"></Button>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

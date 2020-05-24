@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "978107039149",
+    "firebase_url": "https://knowledgecampus-c1f78.firebaseio.com",
+    "project_id": "knowledgecampus-c1f78",
+    "storage_bucket": "knowledgecampus-c1f78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978107039149:android:ba9cbae9813e349b",
+        "android_client_info": {
+          "package_name": "com.apkglobal.knowledgecampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978107039149-reo0fn6ced2v1a6tplf937ffercbvpag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apkglobal.knowledgecampus",
+            "certificate_hash": "d1a66c42a6f3489e19ba8ff997e71bf67e4cc62d"
+          }
+        },
+        {
+          "client_id": "978107039149-cdg7g2k64fc2rj96pld38eanr53sh36h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO5oKtjqRltz0OcpdXbc3Lc0RBAbtlBLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978107039149-cdg7g2k64fc2rj96pld38eanr53sh36h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
